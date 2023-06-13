@@ -7,9 +7,9 @@ function App() {
   const [location, setLocation] = useState('')
   const [error, setError] = useState(null)
 
-  //const api_key = process.env.REACT_APP_WEATHER_API_KEY;
+  const api_key = process.env.REACT_APP_WEATHER_API_KEY;
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=50ba28a18a4a6ef563dc69bffaf388f4`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${api_key}`
 
 
   
