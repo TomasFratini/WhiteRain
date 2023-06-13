@@ -33,7 +33,6 @@ function App() {
     setError(null)
     }   
 
-
   return (
     <div className="app">
       <div className="search">
